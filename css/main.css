@@ -20,6 +20,11 @@ body {
   margin: 0;
 }
 
+img {
+  margin: 0;
+  padding: 0;
+}
+
 img:first-child {
   float: left;
   width: 100%;
@@ -74,6 +79,7 @@ img:last-child {
 }
 
 @media only screen and (min-width: 38em) {
+
   img:first-child {
     float: left;
     width: 100%;
@@ -101,6 +107,7 @@ img:last-child {
 }
 
 @media only screen and (min-width: 60em) {
+
   img:first-child {
     float: left;
     width: 66.6666%;
