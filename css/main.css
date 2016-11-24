@@ -5,6 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
 }
 
@@ -17,7 +21,7 @@ body {
 }
 
 img:first-child {
-  float:left;
+  float: left;
   width: 100%;
 }
 
@@ -42,7 +46,7 @@ img:last-child {
 @media only screen and (min-width: 25em) {
 
   img:first-child {
-    float:left;
+    float: left;
     width: 100%;
   }
 
@@ -71,7 +75,7 @@ img:last-child {
 
 @media only screen and (min-width: 38em) {
   img:first-child {
-    float:left;
+    float: left;
     width: 100%;
   }
 
@@ -98,7 +102,7 @@ img:last-child {
 
 @media only screen and (min-width: 60em) {
   img:first-child {
-    float:left;
+    float: left;
     width: 66.6666%;
   }
 
